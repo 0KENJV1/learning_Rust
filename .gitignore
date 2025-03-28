@@ -1,0 +1,55 @@
+# Ignorar binarios y directorios de compilación
+target/
+debug/
+release/
+
+# Archivos de Rust que no deberían rastrearse
+**/*.rs.bk
+
+# Archivos de dependencias
+Cargo.lock
+Cargo/ # (En caso de que haya dependencias locales)
+
+# Archivos generados por el compilador
+*.rmeta
+*.rlib
+
+# Archivos de depuración y perfiles
+*.dSYM/
+*.pdb
+*.profraw
+*.profdata
+
+# Archivos de Rust Analyzer y herramientas de desarrollo
+/.vscode/
+/.idea/
+/rust-analyzer.json
+
+# Archivos temporales de editores
+*.swp
+*.swo
+*~
+*.bak
+*.log
+
+# Archivos de pruebas y dumps
+test-*.log
+*.stderr
+*.stdout
+
+# Archivos generados por cargo-bench
+*.bench
+
+# Archivos de compilaciones personalizadas
+build/
+
+# Archivos generados por herramientas como Clippy
+clippy.toml
+
+# Archivos de configuración local de Cargo
+.cargo/
+
+# Archivos de integración con CI/CD
+*.coverage
+coverage/
+
