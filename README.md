@@ -41,7 +41,7 @@ use variables::mi_funcion;
 fn main() {
     mi_funcion();
 }
-
+```
 ---
 
 ## 🧠 Nota
