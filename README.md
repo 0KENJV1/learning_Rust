@@ -54,5 +54,5 @@ Cualquier sugerencia o mejora es bienvenida. 😊
 
 ## 📚 Referencias
 
-The Rust Book (en inglés)
-El libro de Rust (en español)HE
+- The Rust Book (en inglés)
+- El libro de Rust (en español)HE
