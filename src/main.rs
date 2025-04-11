@@ -1,7 +1,9 @@
 //mod riddle;
-mod variables;
+//mod variables;
+mod funciones;
 
 fn main() {
     //riddle::riddle();
-    variables::variables();
+    //variables::variables();
+    funciones::function();
 }
